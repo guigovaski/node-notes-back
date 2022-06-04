@@ -2,6 +2,7 @@ Notes App Back
 
 ## Sumário
 - **[Sobre](#sobre)**
+- **[Instruções](#instruções)**
 - **[Pré-requisitos](#pré-requisitos)**
 - **[Instalação](#instalação)**
 - **[Tecnologias](#tecnologias)**
@@ -13,6 +14,9 @@ Notes App Back
 
 Projeto de uma API feita com NodeJS. Construi uma API que faz um CRUD de dados de notas adesivas, onde as informações são: título da nota, conteúdo da nota e data de criação/atualização da nota. Usei o banco de dados PostgreSQL e o ORM Sequelize e também fiz o uso de migrations para segurança e segurança do banco de dados e também de seeders, para testes rápidos em cima do banco.  
 **OBS: Para testar o projeto completo, recomendo fazer o clone e rodar o servidor deste respositório: https://github.com/guigovaski/react-notes-front.git**
+
+## Instruções
+Você precisa renomear a váriavel de ambiente **.env.local** para **.env** apenas, e preencher de acordo com os seus dados de conexão
 
 ## Pré-requisitos
 Antes de começar, você precisa ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com), [Node](https://nodejs.org/). Além disso, é interessante que tenha instalado um editor de código como o [VSCode](htts://code.visualstudio.com/).
