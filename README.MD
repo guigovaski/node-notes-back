@@ -1,4 +1,4 @@
-Notes App Back
+# Notes App Back
 
 ## Sumário
 - **[Sobre](#sobre)**
@@ -26,7 +26,7 @@ Antes de começar, você precisa ter instalado em sua máquina as seguintes ferr
 ### Clone este repositório
 `$ git clone https://github.com/guigovaski/node-notes-back.git`
 
-### Instala as dependências
+### Instale as dependências
 `$ npm install`
 
 ### Execute o servidor
