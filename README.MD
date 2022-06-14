@@ -2,6 +2,7 @@
 
 ## Sumário
 - **[Sobre](#sobre)**
+- **[Documentação](#documentação)**
 - **[Instruções](#instruções)**
 - **[Pré-requisitos](#pré-requisitos)**
 - **[Instalação](#instalação)**
@@ -14,6 +15,31 @@
 
 Projeto de uma API feita com NodeJS. Construi uma API que faz um CRUD de dados de notas adesivas, onde as informações são: título da nota, conteúdo da nota e data de criação/atualização da nota. Usei o banco de dados PostgreSQL e o ORM Sequelize e também fiz o uso de migrations para segurança e segurança do banco de dados e também de seeders, para testes rápidos em cima do banco.  
 **OBS: Para testar o projeto completo, recomendo fazer o clone e rodar o servidor deste respositório: https://github.com/guigovaski/react-notes-front.git**
+
+## Documentação
+**Todas as rotas possuem um prefixo /api**
+
+### **Rotas:**
+**/GET: /api/notes**  
+Action: Retorna todas as notas disponíveis no Banco de dados
+
+**POST: /api/notes**  
+Parameters:
+- title | required | título da nota
+- body | required | texto da nota
+
+**/GET: /api/notes/:id**  
+Action: Retorna uma nota em específico
+
+**/PATCH: /api/notes/:id**  
+Parameters:
+- title | optional | título da nota
+- body | optional | texto da nota
+
+Action: Altera uma nota
+
+**/DELETE: /api/notes/:id**  
+Action: Deleta uma nota
 
 ## Instruções
 Você precisa renomear a váriavel de ambiente **.env.local** para **.env** apenas, e preencher de acordo com os seus dados de conexão
